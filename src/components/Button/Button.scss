@@ -1,0 +1,21 @@
+button {
+  width: 8rem;
+  height: 3rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.inc-btn:hover,
+.inc-btn:active,
+.inc-btn:focus {
+  background-color: rgb(119, 255, 119);
+}
+.dec-btn:hover,
+.dec-btn:active,
+.dec-btn:focus {
+  background-color: rgb(255, 103, 103);
+}

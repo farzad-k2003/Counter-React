@@ -1,0 +1,30 @@
+#main {
+  height: calc(100% - 9rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  .input-container {
+    width: 325px;
+    input {
+      padding-left: 0.5rem;
+      width: 100%;
+      height: 2rem;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+      background-color: #eee;
+    }
+  }
+  .counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .count {
+      height: max-content;
+      margin: 0 20px;
+      font-size: 4rem;
+    }
+  }
+}
